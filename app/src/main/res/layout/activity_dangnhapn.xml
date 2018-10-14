@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/galaxy"
+    android:layout_height="match_parent"
+    tools:context="com.example.hieunguyen.moneylover.DangnhapActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textColor="#ad94c6"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP" />
+    <EditText
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edittextuser"
+        android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:hint="Nhập tên người dùng"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:textColor="#ffff"
+        android:id="@+id/edittextpassword"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffffff"
+        android:hint="Nhập mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/buttondangnhap"
+            android:layout_width="wrap_content"
+            android:text="ĐĂNG NHẬP"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

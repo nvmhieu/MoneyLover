@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manhinh"
+    android:orientation="vertical"
+    android:background="#ff6600"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/caube"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+    <TextView
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingHorizontal="20dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/imageview1"
+        android:gravity="center"
+        android:text="Lên kế hoạch tài chính thông minh và từng bước tiết kiệm để hiện thực hóa ước mơ."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnlandau"
+            android:layout_gravity="center"
+            android:textColor="#71b725"
+            android:text="Lần đầu sử dụng money lover"
+            android:layout_width="350dp"
+            android:layout_marginTop="350dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+
+            android:id="@+id/btndadung"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            style=""
+            android:layout_below="@+id/btnlandau"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_boder_button_splash"
+            android:elevation="24dp"
+            android:text="Đã sử dụng money lover"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</RelativeLayout>
